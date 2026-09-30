@@ -13,7 +13,7 @@ int main(){
         cout << "Type Quit to close program"<<endl;
         cin >> Login;
         
-    // boolen for login 
+    // condition for login 
         if (Login == "Login") {
         cout << "Welcome! This project is in early devolopment." <<endl;
         }
@@ -27,7 +27,7 @@ int main(){
             cout << "Please enter one of two options. Run again" <<endl;
         return 0;
         }
-    //end of first boolen 
+    //end of first condition
     
     //start of output for user after login  
             cout << "\nEnter a number associated with a set of colors you struggle with, \nand find out what type of color blindess you may have. \nColors are: " <<endl;
@@ -64,4 +64,6 @@ int main(){
 
         }
         return 0;
+   //end of switch
 }
+//end of code
