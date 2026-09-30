@@ -57,7 +57,8 @@ int main(){
 
             case 5:
             cout << "Facts are: \nRed-Green color blidness is the most common type of color blidness. \n" <<endl;
-
+            break;
+               
             default:
             cout << "Please enter a number listed" <<endl;
             break;
