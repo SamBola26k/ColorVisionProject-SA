@@ -1,4 +1,6 @@
 #include <iostream>
+#include <string>
+#include <vector>
 using namespace std;
 
 int main(){
@@ -29,6 +31,19 @@ int main(){
         }
     //end of first condition
     
+
+    //start of vector use
+        vector<string> colors ={
+        "Red, Green, Brown, Orange"
+
+
+
+    }
+
+
+
+
+
     //start of output for user after login  
             cout << "\nEnter a number associated with a set of colors you struggle with, \nand find out what type of color blindess you may have. \nColors are: " <<endl;
             cout << "1. Red, Green, Brown, Orange" <<endl;
@@ -57,14 +72,12 @@ int main(){
 
             case 5:
             cout << "Facts are: \nRed-Green color blidness is the most common type of color blidness. \n" <<endl;
-            break;
-               
+
             default:
             cout << "Please enter a number listed" <<endl;
             break;
 
         }
         return 0;
-   //end of switch
+        //end of switch statment
 }
-//end of code
